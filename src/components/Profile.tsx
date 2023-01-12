@@ -1,12 +1,12 @@
 import React from "react";
-
+import './Profile.css'
 
 const Profile = () => {
 
     return (
     <div className='content'>
         <div>
-            <img src="https://vk-oblozhki.ru/photos/big/ssha-gorod-vysotki-doma-los-andzheles-134-3049.jpg"
+            <img src="https://www.theirm.org/media/7515/rl-website-header-banner-1200x270-blank.jpg"
                  alt=""/>
         </div>
         <div>

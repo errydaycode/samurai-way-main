@@ -1,10 +1,10 @@
 import React from "react";
-import './Profile.css'
+import s from'./Profile.module.css'
 
 const Profile = () => {
 
     return (
-    <div className='content'>
+    <div className={s.content}>
         <div>
             <img src="https://www.theirm.org/media/7515/rl-website-header-banner-1200x270-blank.jpg"
                  alt=""/>
@@ -17,11 +17,11 @@ const Profile = () => {
             <div>
                 New post
             </div>
-            <div>
-                <div>
+            <div className={'posts'}>
+                <div className={s.item}>
                     post 1
                 </div>
-                <div>
+                <div className={s.item}>
                     post 2
                 </div>
             </div>

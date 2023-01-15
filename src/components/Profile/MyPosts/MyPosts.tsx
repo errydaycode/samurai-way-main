@@ -10,8 +10,6 @@ export type infoType ={
 
 const MyPosts = () => {
 
-
-
     const info: infoType = {
         message: 'Hi, how are you?',
         likesCount: 15

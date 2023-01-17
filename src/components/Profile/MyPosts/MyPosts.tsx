@@ -2,7 +2,7 @@ import React from "react";
 import s from './MyPosts.module.css'
 import Post from "./Post/Post";
 
-export type infoType ={
+export type infoType = {
     message: string
     likesCount: number
 }
@@ -21,11 +21,15 @@ const MyPosts = () => {
     }
 
     return (
-        <div>
-            My posts
+        <div className={s.postsBlock}>
+            <h3>My posts</h3>
             <div>
-                <textarea></textarea>
-                <button>Add Post</button>
+                <div>
+                    <textarea></textarea>
+                </div>
+                <div>
+                    <button>Add Post</button>
+                </div>
 
             </div>
             <div className={s.posts}>

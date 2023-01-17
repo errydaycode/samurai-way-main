@@ -1,21 +1,17 @@
 import React from "react";
 import s from './Profile.module.css'
 import MyPosts from "./MyPosts/MyPosts";
+import ProfileInfo from "./ProfileInfo/ProfileInfo";
 
 const Profile = () => {
 
     return (
-    <div className={s.content}>
-        <div>
-            <img src="https://www.theirm.org/media/7515/rl-website-header-banner-1200x270-blank.jpg"
-                 alt=""/>
+        <div className={s.content}>
+            <div>
+                <ProfileInfo/>
+                <MyPosts/>
+            </div>
         </div>
-        <div>
-            ava + description
-        </div>
-        <MyPosts/>
-    </div>
     )
 }
-
 export default Profile
